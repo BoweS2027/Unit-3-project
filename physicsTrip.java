@@ -12,6 +12,12 @@ public class physicsTrip {
         this.duration = 1;
         this.physicsRuined = true;
     }
+    public physicsTrip(String tn, String d, int d2, boolean pr){
+        this.travelersName = tn;
+        this.destination = d;
+        this.duration = d2;
+        this.physicsRuined = pr;
+    }
     public String gettravelersName() {
     return travelersName;
 }
